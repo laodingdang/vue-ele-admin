@@ -35,7 +35,7 @@ module.exports = {
       "/api": {
         target: "http://xxx.xx.xxx.xxx:8080", //源地址
         changeOrigin: true, //改变源
-        ws: true, //是否代理websockets
+        ws: false, //是否代理websockets
         pathRewrite: {
           "^/api": ""
         }
